@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ComplaintPage from "./pages/ComplaintPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="font-sans">
+        <header>
+          <img
+            src="https://dealers.updatepromise.com/hs-fs/hubfs/UpdatePromise_Primary_Logo.png?width=1848&height=362&name=UpdatePromise_Primary_Logo.png"
+            alt="logo"
+            className="w-52 h-12 mx-auto mt-10"
+          />
+        </header>
+        <ComplaintPage />
+      </div>
+    </>
   );
 }
 
